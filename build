@@ -1,0 +1,1 @@
+gcc -O3 -I. -I./argon2m -I./blake2 argon2m/*.c blake2/*.c argon2m.c main.c -lpthread -o testargon2m
